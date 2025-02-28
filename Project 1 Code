@@ -1,4 +1,6 @@
-// Design a 1-bit full-adder in Verilog using behavioral modeling. Assume that the inputs are A, B, and Cin, and the outputs are S, Cout. Use the module template of Figure 1(a). [Points: 5]
+// Design a 1-bit full-adder in Verilog using behavioral modeling. 
+// Assume that the inputs are A, B, and Cin, and the outputs are S, Cout. 
+// Use the module template of Figure 1(a). [Points: 5]
 
 // Code Design
 `timescale 1ns / 1ps
@@ -45,7 +47,9 @@ module tb_one_bit_full_adder;
     end
 endmodule
 
-// Design a 1-bit full-adder in Verilog using structural modeling. Assume that the inputs are A, B, and Cin, and outputs are S, Cout. Use the module template of Figure 1(a). [Points : 5]
+// Design a 1-bit full-adder in Verilog using structural modeling. 
+// Assume that the inputs are A, B, and Cin, and outputs are S, Cout. 
+// Use the module template of Figure 1(a). [Points : 5]
 
 
 // Code Design
