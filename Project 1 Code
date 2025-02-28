@@ -231,7 +231,9 @@ module tb_four_bit_RCS;
     end
 endmodule
 
-// Design a testbench to test the 4-bit RCA/RCS. The testbench must perform at least one addition and one subtraction of two numbers (both signed and unsigned numbers). (See the link at Testbench writing). [Hint: See Lecture 1 and Lecture 2 for signed number arithmetic.] [Points: 20]
+// Design a testbench to test the 4-bit RCA/RCS. 
+// The testbench must perform at least one addition and one subtraction of two numbers (both signed and unsigned numbers). 
+// (See the link at Testbench writing). [Hint: See Lecture 1 and Lecture 2 for signed number arithmetic.] [Points: 20]
 
 // Design Code
 
@@ -281,6 +283,7 @@ module four_bit_RCS(A, B, Sub, S, Cout);
     one_bit_full_adder FA2 (A[2], B_comp[2], C2,   S[2], C3);
     one_bit_full_adder FA3 (A[3], B_comp[3], C3,   S[3], Cout);
 endmodule
+
 // Code for Testbench
 `timescale 1ns / 1ps
 
