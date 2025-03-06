@@ -1,3 +1,8 @@
+// Design a 16-bit PPA. Assume that the inputs are A[15:0], B[15:0], and Cin, and the outputs are S[15:0], Cout. 
+// You can only use 2-input AND and OR gates to construct the carry propagation and carry generate logic. 
+// Use the CLA module template of Figure 2(b) [Points : 40]
+
+`timescale 1ns / 1ps
 // Part (a): 4-bit Carry Look Ahead Adder (CLA)
 module four_bit_CLA(A, B, Cin, S, Cout);
     input [3:0] A, B;
@@ -47,4 +52,6 @@ module CLA(A, B, Cin, S, Cout);
     
     assign Cout = carry[7];
 endmodule
+
+// Enhance the CLA testbench of Problem 2(b) to test the 16-bit PPA. [Points: 10]
 
